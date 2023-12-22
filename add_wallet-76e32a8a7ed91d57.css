@@ -1,0 +1,24 @@
+.create_wallet {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.create_wallet button {
+    font-size: 3rem;
+}
+
+.show_bip39 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+}
+
+.show_bip39 a {
+    flex-basis: 50%; /* 所有子项占50%的宽度 */
+    font-size: 2rem;
+    text-align: center;
+}
